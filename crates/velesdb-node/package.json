@@ -41,8 +41,8 @@
     "skills/"
   ],
   "scripts": {
-    "build": "napi build --platform --profile release-node",
-    "build:debug": "napi build --platform",
+    "build": "node init && napi build --platform --profile release-node",
+    "build:debug": "node init && napi build --platform",
     "test": "node --test __test__/*.spec.mjs",
     "prepublishOnly": "napi prepublish -t npm --no-gh-release"
   },
