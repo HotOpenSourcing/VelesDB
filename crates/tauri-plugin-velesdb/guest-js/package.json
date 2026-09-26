@@ -18,7 +18,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsup index.ts --format cjs,esm --dts",
+    "build": "node init && tsup index.ts --format cjs,esm --dts",
     "lint": "eslint index.ts",
     "typecheck": "tsc --noEmit"
   },

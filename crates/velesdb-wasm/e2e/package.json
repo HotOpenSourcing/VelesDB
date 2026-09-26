@@ -5,7 +5,7 @@
   "license": "SEE LICENSE IN ../../../LICENSE",
   "private": true,
   "scripts": {
-    "build:wasm": "cd .. && wasm-pack build --target web --out-dir e2e/pkg",
+    "build:wasm": "node init && cd .. && wasm-pack build --target web --out-dir e2e/pkg",
     "test": "npx playwright test",
     "test:headed": "npx playwright test --headed",
     "test:ui": "npx playwright test --ui"

@@ -7,7 +7,6 @@
 
 # IDE
 .idea/
-.vscode/
 *.swp
 
 # Windsurf local config (accessible by Cascade but not pushed)
@@ -41,8 +40,6 @@ scripts/run_ralphy_batch.ps1
 Thumbs.db
 
 # Environment
-.env
-.env.local
 .env.*.local
 
 # Data
@@ -181,3 +178,4 @@ test_repl_data/
 # cargo-mutants writes its report here. It ran as a CI job until #2339 and is
 # a local tool now; 45 of these files reached the history through #2347.
 mutants.out/
+config.bat
